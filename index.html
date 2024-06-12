@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personality Test</title>
+  <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+  <div class="landing-page h-svh flex flex-col justify-center items-center font-sans">
+    <h1 class="mb-4 text-4xl font-bold">A Magical Journey</h1>
+    <p class="mb-4 font-bold italic">Go on an adventure</p>
+    <button id="start-btn" class="px-4 py-2 w-28 text-lg font-semibold rounded-full shadow border-2 border-black hover:text-white hover:bg-black hover:border-transparent">Start</button>
+  </div>
+  <div class="quiz-page" style="display:none">
+    <div id="quiz" class="w-screen h-svh flex flex-col justify-center items-center">
+      <div class="w-[20rem] h-[15rem] top-[1.5rem]">
+        <img src="/images/q1.jpg" alt="green-orb" id="question-img" class="w-full h-full object-cover rounded-sm">
+      </div>
+      <h2 id="question" class="mt-4 max-w-screen-lg text-lg font-medium text-center text-wrap">
+      </h2>
+      <div class="choices flex flex-col justify-center items-center">
+        <button id="choiceA" class="choice-btn w-[17rem] min-w-max h-[5rem] mt-5 p-2 rounded-3xl border-2 border-black hover:text-white hover:bg-black hover:border-transparent text-balance">
+        </button>
+        <button id="choiceB" class="choice-btn w-[17rem] min-w-max h-[5rem] mt-5 p-2 rounded-3xl border-2 border-black hover:text-white hover:bg-black hover:border-transparent text-balance">
+        </button>
+        <progress id="progress-bar-1" class="progress-bar absolute w-2/3 bottom-5 rounded-full h-3" value="1" max="18"></progress>
+      </div>
+    </div>
+  </div>
+  <div class="transition-page" style="display:none">
+    <div class="h-svh flex flex-col justify-center items-center bg-black text-2xl italic font-semibold font-sans text-white">  
+      <p class="transition"></p>
+      <button id="continue-btn" class="absolute bottom-64 px-4 py-4 w-56 text-lg font-semibold rounded-full bg-slate-300 text-black hover:bg-white">Continue</button>
+      <progress id="progress-bar-2" class="progress-bar absolute w-2/3 bottom-5 rounded-full h-3" value="1" max="18"></progress>
+    </div>
+  </div>
+  <div class="results-page" style="display:none">
+    <div class="h-svh flex flex-col justify-center items-center font-sans">
+      <h2 id="category" class="mb-4 text-5xl font-bold">Personality Category</h2>
+      <h3 id="trait" class="mb-4 text-2xl">Dominant Trait</h3>
+      <p id="description" class="text-xl">Description</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="questions.js"></script>
+  <script src="results.js"></script>
+</body>
+</html>
