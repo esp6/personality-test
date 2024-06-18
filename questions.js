@@ -197,7 +197,7 @@ const questions = [
   },
   {
     number: 14,
-    question: 'You enter the town and encounter two creatures, a hooded fairy and a stuttering dwarf. Both of <br/> them want to buy the magical item you found on your journey. The dwarf says, nervously, "I will <br/> use it to heal my sick brothers," but his eyes dart around suspiciously. The fairy says, "I need it <br/> for my collection of rare artifacts," but her face is covered up except for a sly grin. Do you:',
+    question: 'You enter the town and encounter two creatures, a hooded fairy and a stuttering dwarf. Both want to buy the magical item <br/> you found on your journey. The dwarf says, "I will use it to heal my sick brothers," but his eyes dart around suspiciously. <br/> The fairy says, "I need it for my collection of rare artifacts," but her face is covered up except for a sly grin. Do you:',
     image: "images-w/q14.webp",
     "image-alt": "creatures",
     answers: {
