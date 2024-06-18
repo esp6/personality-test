@@ -1,10 +1,7 @@
 let scoreCounts = {
-  CEX: 0,
-  CBR: 0,
-  WR: 0,
-  CAL: 0,
-  MB: 0,
-  CRS: 0
+  CEXMB: 0,
+  CBRCAL: 0,
+  WRCRS: 0
 };
 
 document.querySelector("#start-btn").addEventListener("click", () => {
@@ -68,7 +65,6 @@ function handleChoice(e) {
     currQuestion++;
     displayQuestion();
   } else {
-    console.log(scoreCounts);
     showResult();
   }
 }
@@ -80,7 +76,6 @@ function showResult() {
   const category = document.querySelector("#category");
   const trait = document.querySelector("#trait");
   const description = document.querySelector("#description");
-
   let dominantTrait = Object.keys(scoreCounts).find(function(key) {
     return scoreCounts[key] === Math.max(...(Object.values(scoreCounts)));
   });
@@ -88,5 +83,5 @@ function showResult() {
   const result = results[dominantTrait];
   category.textContent = result.category;
   trait.textContent = result.trait;
-  description.textContent = result.description;
+  description.innerHTML = result.description;
 }

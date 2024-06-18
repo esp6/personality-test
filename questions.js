@@ -7,11 +7,11 @@ const questions = [
     answers: {
       A: {
         text: "I wonder what that is. <br/> You touch it with excitement.",
-        scores: ["CEX", "MB"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Huh, that's weird. You close your <br/> eyes and try to go back to sleep.",
-        scores: []
+        scores: ["WRCRS"]
       }
     }
   },
@@ -27,11 +27,11 @@ const questions = [
     answers: {
       A: {
         text: "This place is so beautiful! I <br/> want to look around and explore.",
-        scores: ["CEX"]
+        scores: ["CEXMB"]
       },
       B: {
-        text:  "Wait where am I? What's <br/> going on? I want to go home.",
-        scores: []
+        text:  "Wait where am I? What's going on? <br/> I need to figure out how to get back home.",
+        scores: ["CBRCAL"]
       }
     }
   },
@@ -43,11 +43,11 @@ const questions = [
     answers: {
       A: {
         text:  "​Follow the path that glows <br/> with soft, sparkling lights",
-        scores: ["MB"]
+        scores: ["CEXMB"]
       },
       B: {
         text:  "Take the path that is <br/> shadowy and mysterious",
-        scores: ["CBR"]
+        scores: ["CBRCAL"]
       }
     }
   },
@@ -59,11 +59,11 @@ const questions = [
     answers: {
       A: {
         text: "​​Enter the cave, hoping to <br/> find hidden treasures?",
-        scores: ["CEX", "MB"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Stay outside and listen carefully for any <br/> interesting sounds coming from within?",
-        scores: []
+        scores: ["WRCRS"]
       }
     }
   },
@@ -75,11 +75,11 @@ const questions = [
     answers: {
       A: {
         text:  "​A glowing, crystal amulet",
-        scores: ["MB"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "A jar of pebbles with symbols on them",
-        scores: ["WR", "CRS"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -91,11 +91,11 @@ const questions = [
     answers: {
       A: {
         text:  "Jump in and swim with <br/> the magical creatures?",
-        scores: []
+        scores: ["CEXMB"]
       },
       B: {
         text:  "Sit by the shore and talk <br/> to the wise old turtle?",
-        scores: ["WR"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -107,11 +107,11 @@ const questions = [
     answers: {
       A: {
         text: "​You strategically charge at <br/> the wild wolf to try to stun it.",
-        scores: ["CBR"]
+        scores: ["CBRCAL"]
       },
       B: {
         text: "You simultaneously distract the wolf and help <br/> free the elf, and then run away with the elf.",
-        scores: ["CRS", "CAL"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -123,11 +123,11 @@ const questions = [
     answers: {
       A: {
         text: "Read a spell out loud <br/> to see what happens?",
-        scores: ["CBR", "CEX"]
+        scores: ["CBRCAL"]
       },
       B: {
         text: "Study the book carefully <br/> to understand its secrets?",
-        scores: ["WR"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -139,11 +139,11 @@ const questions = [
     answers: {
       A: {
         text: "Choose a skinny dragon, who can get you there immediately for a cheap <br/> price, but cannot guarantee your safety because of the potential storm.",
-        scores: ["CBR", "CRS"]
+        scores: ["CBRCAL"]
       },
       B: {
         text: "Choose a griffin, who can get you there tomorrow for twice the price of <br/> the dragon and will guarantee your safety even if there is a storm tomorrow.",
-        scores: []
+        scores: ["WRCRS"]
       }
     }
   },
@@ -155,11 +155,11 @@ const questions = [
     answers: {
       A: {
         text: "Feel inspired and make a <br/> wish, believing in its power?",
-        scores: ["MB"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Take a moment to reflect on the meaning of <br/> the words and how they apply to your journey?",
-        scores: ["WR", "CRS"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -171,11 +171,11 @@ const questions = [
     answers: {
       A: {
         text: "Offer them your magical map <br/> to help them find their way?",
-        scores: ["CRS"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Decide to accompany them on their <br/> journey to ensure they get home safely?",
-        scores: ["CAL"]
+        scores: ["CBRCAL"]
       }
     }
   },
@@ -187,11 +187,11 @@ const questions = [
     answers: {
       A: {
         text: "Appreciate the art and <br/> marvel at its beauty?",
-        scores: ["WR"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Make fun of the art and <br/> laugh at its odd details?",
-        scores: ["CRS"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -203,11 +203,11 @@ const questions = [
     answers: {
       A: {
         text: "Trust the stuttering dwarf <br/> and sell it to him?",
-        scores: ["CAL", "MB"]
+        scores: ["CBRCAL"]
       },
       B: {
         text: "Trust the hooded fairy <br/> and sell it to her?",
-        scores: ["CRS"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -219,11 +219,11 @@ const questions = [
     answers: {
       A: {
         text: "Try it in every lock you find <br/> to discover what it opens?",
-        scores: ["CEX"]
+        scores: ["CEXMB"]
       },
       B: {
         text: "Keep it safe until you <br/> find its rightful owner?",
-        scores: ["CAL"]
+        scores: ["CBRCAL"]
       }
     }
   },
@@ -235,11 +235,11 @@ const questions = [
     answers: {
       A: {
         text: "Go to the establishment to tell <br/> people about your adventures?",
-        scores: []
+        scores: ["CBRCAL"]
       },
       B: {
         text:  "Sit quietly on the bench and reflect <br/> on everything you've learned?",
-        scores: ["WR"]
+        scores: ["WRCRS"]
       }
     }
   },
@@ -254,12 +254,12 @@ const questions = [
     "image-alt": "bed",
     answers: {
       A: {
-        text: "That had to be a dream right? <br/> I'm so glad I'm back home.",
-        scores: []
+        text: "That had to be a dream right? <br/> That was scary, but I'm so glad I'm back home.",
+        scores: ["CBRCAL"]
       },
       B: {
         text: "That was the coolest adventure ever! <br/> I need to tell my friends about this!",
-        scores: ["CEX", "MB"]
+        scores: ["CEXMB"]
       }
     }
   },
