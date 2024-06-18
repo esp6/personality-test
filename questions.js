@@ -2,7 +2,7 @@ const questions = [
   {
     number: 1,
     question: "It's the first day of summer! You wake up, yawn, roll over, and notice a glowing green orb floating above your head.",
-    image: "images/q1.jpg",
+    image: "images-w/q1.webp",
     "image-alt": "green orb",
     answers: {
       A: {
@@ -22,7 +22,7 @@ const questions = [
   {
     number: 3,
     question: "You have been transported to a mystical world with a lush green forest and deep blue waters.",
-    image: "images/q3.jpg",
+    image: "images-w/q3.webp",
     "image-alt": "forest",
     answers: {
       A: {
@@ -38,7 +38,7 @@ const questions = [
   {
     number: 4,
     question: "You are walking through the forest. After some time, you come across a fork in the path. <br/> One path glows with soft, sparkling lights, while the other is shadowy and mysterious.",
-    image: "images/q4.jpg",
+    image: "images-w/q4.webp",
     "image-alt": "forked path",
     answers: {
       A: {
@@ -54,7 +54,7 @@ const questions = [
   {
     number: 5,
     question: "As you continue your journey, you find a hidden cave behind a waterfall. <br/> The sound of the water is soothing, and you feel a sense of wonder. Do you:",
-    image: "images/q5.jpg",
+    image: "images-w/q5.webp",
     "image-alt": "waterfall", 
     answers: {
       A: {
@@ -70,7 +70,7 @@ const questions = [
   {
     number: 6,
     question: "Deeper in the forest, you encounter a mysterious stranger with a limp. They offer you a choice between two magical <br/> items. You don't know what it does but she promises you that they are both helpful. You can only pick one:",
-    image: "images/q6.jpg",
+    image: "images-w/q6.webp",
     "image-alt": "magical items",
     answers: {
       A: {
@@ -86,7 +86,7 @@ const questions = [
   {
     number: 7,
     question: 'You encounter a lake, where the water sparkles with a thousand colors, and magical creatures swim playfully. A <br/> wise old turtle approaches you. The turtle speaks slowly and wisely, "Greetings, weary traveler. Would you like <br/> to swim with the magical creatures to refresh yourself, or sit with me and hear tales of ancient times?"',
-    image: "images/q7.jpg",
+    image: "images-w/q7.webp",
     "image-alt": "turtle",
     answers: {
       A: {
@@ -102,7 +102,7 @@ const questions = [
   {
     number: 8,
     question: "Suddenly, you hear a cry for help up ahead. You move towards the sound. There is a young elf with a shimmering green cloak who is stuck in a bush, and he is about to be attacked by a wild wolf with glowing red eyes. You want to help.",
-    image: "images/q8.jpg",
+    image: "images-w/q8.webp",
     "image-alt": "wolf",
     answers: {
       A: {
@@ -118,7 +118,7 @@ const questions = [
   {
     number: 9,
     question: "After saving the elf, you come to a clearing. In the middle of the clearing, you find an ancient magic <br/> book resting on a stone pedestal. The book's cover glows faintly, inviting you to open it. Do you:",
-    image: "images/q9.jpg",
+    image: "images-w/q9.webp",
     "image-alt": "book",
     answers: {
       A: {
@@ -134,7 +134,7 @@ const questions = [
   {
     number: 10,
     question: "As you explore further, you notice a floating island in the sky. It seems unreachable, but you feel a strong urge to get <br/> there. The sky begins to darken with storm clouds and the wind begins to pick up. How do you want to get there?",
-    image: "images/q10.jpg",
+    image: "images-w/q10.webp",
     "image-alt": "floating island",
     answers: {
       A: {
@@ -150,7 +150,7 @@ const questions = [
   {
     number: 11,
     question: 'After reaching the floating island, you find yourself in a meadow. You come across an ancient stone with an <br/> inscription carved into it. The inscription reads, "The greatest magic lies within those who dare to believe." Do you:',
-    image: "images/q11.jpg",
+    image: "images-w/q11.webp",
     "image-alt": "stone",
     answers: {
       A: {
@@ -166,7 +166,7 @@ const questions = [
   {
     number: 12,
     question: "After making your wish or reflecting on the inscription, you continue your journey through the meadow. You <br/> come across a traveler who looks tired and lost. They ask for your help to find their way home. Do you:",
-    image: "images/q12.jpg",
+    image: "images-w/q12.webp",
     "image-alt": "traveler",
     answers: {
       A: {
@@ -182,7 +182,7 @@ const questions = [
   {
     number: 13,
     question: "The traveler thanks you for your help. He suggests checking out a nearby town known for their artwork. <br/> You come across a beautiful piece of artwork painted on a wall that stands above the entrance to the <br/> town. It depicts a majestic scene of mythical creatures and enchanted landscapes. Do you:",
-    image: "images/q13.jpg",
+    image: "images-w/q13.webp",
     "image-alt": "artwork",
     answers: {
       A: {
@@ -198,7 +198,7 @@ const questions = [
   {
     number: 14,
     question: 'You enter the town and encounter two creatures, a hooded fairy and a stuttering dwarf. Both of <br/> them want to buy the magical item you found on your journey. The dwarf says, nervously, "I will <br/> use it to heal my sick brothers," but his eyes dart around suspiciously. The fairy says, "I need it <br/> for my collection of rare artifacts," but her face is covered up except for a sly grin. Do you:',
-    image: "images/q14.jpg",
+    image: "images-w/q14.webp",
     "image-alt": "creatures",
     answers: {
       A: {
@@ -214,7 +214,7 @@ const questions = [
   {
     number: 15,
     question: "You pass by a narrow alley and something catches your eye. There is a <br/> mysterious key lying on the ground. It's heavy and feels important. Do you:",
-    image: "images/q15.jpg",
+    image: "images-w/q15.webp",
     "image-alt": "key",
     answers: {
       A: {
@@ -230,7 +230,7 @@ const questions = [
   {
     number: 16,
     question: "After many adventures, you finally reach the end of your journey. You find yourself resting on a bench at a peaceful <br/> cliff overlooking the clear blue ocean. Nearby, you see a cozy eating establishment where the locals gather. Do you:",
-    image: "images/q16.jpg",
+    image: "images-w/q16.webp",
     "image-alt": "cliff",
     answers: {
       A: {
@@ -250,7 +250,7 @@ const questions = [
   {
     number: 18,
     question: "You wake up in your room.",
-    image: "images/q18.jpg",
+    image: "images-w/q18.webp",
     "image-alt": "bed",
     answers: {
       A: {
